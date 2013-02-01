@@ -1,4 +1,4 @@
-Copyright (c) 2012 Calin Fraser, Nicole Stewart, Carly Smith
+Copyright (c) 2012 Carly Smith, Nicole Stewart, Morgan Hornibrook, Calin Fraser
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
