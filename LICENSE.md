@@ -1,4 +1,4 @@
-Copyright (c) 2012 Morgan Hornibrook, Carly Smith
+Copyright (c) 2012 Carly Smith, Nicole Stewart, Morgan Hornibrook
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
