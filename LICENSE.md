@@ -1,4 +1,4 @@
-Copyright (c) 2012 Ian Bishop
+Copyright (c) 2012 Carly Smith
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
