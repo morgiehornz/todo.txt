@@ -1,26 +1,31 @@
 package org.cssquare.todo;
 
 public class CommandHandler{
-	
 
 	//Dispatching commands
 	String dispatch = args[0];
+	String define = args[1];
+
 	if(dispatch.equalsIgnoreCase("add")){
-		todo.add(args[1]);
+		todo.add(define);
 	}
 	else if(dispatch.equalsIgnoreCase("append")){
-		todo.append(args[1]);
+		todo.append(define);
 	}
 	else if(dispatch.equalsIgnoreCase("delete")){
-		todo.delete(args[1]);
+		todo.delete(define);
 	}
 	else if(dispatch.equalsIgnoreCase("list")){
-		todo.list(args[1]);
+		todo.list(define);
 	}
 	else if(dispatch.equalsIgnoreCase("prepend")){
-		todo.prepend(args[1]);
+		todo.prepend(define);
 	}
 	else if(dispatch.equalsIgnoreCase("replace")){
-		todo.replace(args[1]);
+		todo.replace(define);
+	}
+
+	public void add(String def){
+		
 	}
 }
