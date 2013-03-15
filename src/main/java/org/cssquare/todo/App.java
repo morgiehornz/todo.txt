@@ -1,10 +1,16 @@
 package org.cssquare.todo;
 
-public class App 
-{
-    public static void main( String[] args )
-    {
-      for(String arg : args)
-        System.out.println(arg);
+public class App {
+    public static void main(String[] args){
+    	try {
+	      	File f = new File ("todo.txt");
+	      	ArrayList <Task> taskList = FileHandler.readfile(f);
+	      	CommandResult result = CommandHandler.dispatch(args, taskList);
+	      	FileHandler.write(result.getTaskList());
+	      	System.out.println(result.getMessage());
+    	}	
+    	catch (Exception e) {
+    		System.out.println(e.getMessage());
+    	}
     }
 }
