@@ -1,4 +1,6 @@
 package org.cssquare.todo;
+import org.cssquare.todo.*;
+
 import java.io.*;
 import java.util.*;
 
