@@ -55,8 +55,11 @@ public class CommandHandler{
 		//Calin
 	}
 
-	public static CommandResult delete(){
-		//Morgz
+	public static CommandResult delete(ArrayList<Task> taskList, int pos){
+		.get()
+
+		if (pos )
+			throw new Exception("Not found");
 	}
 
 	public static CommandResult list(ArrayList<Task> taskList){
