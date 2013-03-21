@@ -1,5 +1,6 @@
 package org.cssquare.todo;
 import org.cssquare.todo.*;
+import java.util.*;
 
 public class CommandHandler{
 
@@ -57,7 +58,7 @@ public class CommandHandler{
 
 	public static CommandResult delete(ArrayList<Task> taskList, int pos){
 		taskList.get(pos).setTask("");
-		return new CommandResult("Successfully deleted", taskList)
+		return new CommandResult("Successfully deleted", taskList);
 
 	}
 
@@ -75,6 +76,6 @@ public class CommandHandler{
 
 	public static CommandResult replace(ArrayList<Task> taskList, int pos, String str){
 		taskList.get(pos).setTask(str);
-		return new CommandResult("Successfully replaced!", taskList)
+		return new CommandResult("Successfully replaced!", taskList);
 	}
 }
