@@ -56,10 +56,9 @@ public class CommandHandler{
 	}
 
 	public static CommandResult delete(ArrayList<Task> taskList, int pos){
-		.get()
+		taskList.get(pos).setTask("");
+		return new CommandResult("Successfully deleted", taskList)
 
-		if (pos )
-			throw new Exception("Not found");
 	}
 
 	public static CommandResult list(ArrayList<Task> taskList){
@@ -74,7 +73,8 @@ public class CommandHandler{
 		//Calin
 	}
 
-	public static CommandResult replace(){
-		//Morgz
+	public static CommandResult replace(ArrayList<Task> taskList, int pos, String str){
+		taskList.get(pos).setTask(str);
+		return new CommandResult("Successfully replaced!", taskList)
 	}
 }
